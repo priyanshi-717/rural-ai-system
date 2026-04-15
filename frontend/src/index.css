@@ -7,7 +7,7 @@ body{
 }
 .header img{
   height:60vh;
-  width:40vw;
+  width:38vw;
 }
 .header svg{
   color: orange;
@@ -65,4 +65,60 @@ body{
 }
 .important-tabs{
   margin-left:14rem;
+}
+
+
+
+.chat-container {
+  padding: 20px;
+}
+.chat-container h2{
+  display: flex;
+  justify-content:space-evenly;
+}
+
+.chat-box {
+  height: 60vh;
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+  overflow-y: auto;
+  margin: 20px;
+  margin-left:20rem;
+  width:50vw;
+}
+
+
+.ai-msg {
+  background: #eee;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  max-width: 70%;
+}
+
+.user-msg {
+  background: #2D6A4F;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-bottom: 10px;
+  max-width: 70%;
+}
+
+.chat-input {
+  display: flex;
+  gap: 10px;
+  width:50vw;
+  margin-left: 20rem;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+}
+
+.chat-input button {
+  padding: 10px;
 }
