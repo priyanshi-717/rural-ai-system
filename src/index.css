@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* Ensures the app looks like a mobile screen on desktop */
+body {
+  background-color: #f3f4f6; 
+  display: flex;
+  justify-content: center;
+}
+#root {
+  width: 100%;
+  max-width: 450px; /* Mobile width constraint */
+  background-color: white;
+  min-height: 100vh;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
